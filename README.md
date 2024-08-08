@@ -9,5 +9,5 @@ This project includes:
 6. Retry Mechanism
 7. A/B testing using next.js middleware
 
-Check Documentation:
+
 Refer to the specific README files within each sub-directory for descriptions on each component or feature.
