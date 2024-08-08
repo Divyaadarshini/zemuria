@@ -14,4 +14,5 @@ Files Modified:
 To run the project:
   1. Use "npm run dev"
   2. Visit "http://localhost:3000/test-page" to see the code in action.
+  3. Reload the page to see different content based on the assigned group (A or B).
   
