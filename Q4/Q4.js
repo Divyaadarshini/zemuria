@@ -40,4 +40,5 @@ const handleClick = () => {
         });
 }
 
-document.getElementById('btn').addEventListener('click', handleClick);
+//handleClick(); uncomment this function to run without the HTML content
+document.getElementById('btn').addEventListener('click', handleClick); //comment this line to run without the HTML content
