@@ -1,0 +1,41 @@
+
+button {
+    padding: 15px 20px;
+    margin-top: 100px; 
+    margin-left: 50px;
+}
+
+
+.toast-container {
+    position: fixed; 
+    top: 40px; 
+
+}
+
+
+.toast {
+    position: relative; 
+    background-color: black;
+    color: white;
+    font-size: 20px; 
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.toast.show {
+    opacity: 1; 
+}
+
+.toast.success {
+    background-color: blueviolet;
+}
+
+.toast.warning {
+    background-color: orange;
+}
+
+.toast.error {
+    background-color: red;
+}

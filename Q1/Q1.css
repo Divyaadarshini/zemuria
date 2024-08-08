@@ -1,0 +1,35 @@
+/* 1. Create a 3 column grid with 360px height and 32px padding
+ and make it responsive such that 
+ it’s a 2 column grid with 250px height and 12px padding 
+ (Note: The grid should not be taller than the specified height). (15 Minutes) */ */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+ }
+
+ .grid {
+    height: 360px;
+    padding: 32px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 8px;
+    text-align: center;
+ }
+
+@media (max-width: 760px) {
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .grid {
+        height: 250px;
+        padding: 12px;
+        background-color: bisque;
+        color: black;
+        font-size: large;
+    }
+}
