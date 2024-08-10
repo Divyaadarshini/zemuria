@@ -5,7 +5,7 @@ export function middleware(req) {
   const cookie = req.cookies['ab-test-group'];
 
   if (!cookie) {
-    // Randomly assign user to group 'A' or 'B'
+    // Randomly assigning user to group 'A' or 'B'
     const group = Math.random() < 0.5 ? 'A' : 'B';
     url.pathname = `/${group}${url.pathname}`;
     const response = NextResponse.rewrite(url);
