@@ -15,7 +15,7 @@ const fetchData = () => {
 
 const loadContent = async () => {
     const container = document.getElementById('container');
-    const newContent = await fetchData(); // Await the fetched data
+    const newContent = await fetchData(); 
 
     newContent.forEach(element => {
         const item = document.createElement('div');
