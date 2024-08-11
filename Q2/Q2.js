@@ -2,12 +2,6 @@
 (comprising of success, warning and error notifications) 
 that can be used across multiple pages (25 Minutes) */
 
-function createToast(){
-    const container = document.createElement('div')
-    container.id = "toast-container"
-    document.body.appendChild(container);
-}
-
 function displayToast(msg, type){
     const container = document.getElementById('toast-container')
     const toast = document.createElement('div');
@@ -35,5 +29,3 @@ function displayToast(msg, type){
     function errorMsg(msg){
         displayToast(msg, 'error');
     }
-
-    createToast();
