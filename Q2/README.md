@@ -7,7 +7,6 @@ This system provides a simple way to display toast notifications for success, wa
 
 Functions:
 
-* createToast(): Initializes the toast container in the document body.
 * displayToast(msg, type): Displays a toast with the given message (msg) and type (success, warning, or error).
 * successMsg(msg): Displays a success notification.
 * warningMsg(msg): Displays a warning notification.
