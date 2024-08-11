@@ -26,7 +26,7 @@ const sendReq = (payload) => {
 
 const multiReqs = (payloads) => {
     const requests = payloads.map(payload => sendReq(payload));
-    return Promise.all(requests); 
+    return Promise.allSettled(requests); 
 }
 
 const handleClick = () => {
