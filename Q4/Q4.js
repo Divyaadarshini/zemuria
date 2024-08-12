@@ -10,6 +10,7 @@ const payloads = [
     { data: 'hi' },
     { data: 'hello' },
     { data: 'hola' },
+    { data: 'arigato' },
 ];
 
 const sendReq = (payload) => {
