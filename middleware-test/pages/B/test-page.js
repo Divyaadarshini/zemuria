@@ -1,13 +1,6 @@
 //B-test-page
-import { useEffect, useState } from 'react';
-
-
 export default function TestPageB() {
-  const [divColor, setDivColor] = useState('orange');
-
-  useEffect(() => {
-    setDivColor('orange');
-  }, []);
+  const divColor = 'orange';
 
   return (
     <div>
