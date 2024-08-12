@@ -1,4 +1,4 @@
-//B-test-page
+//A-test-page
 export default function TestPageB() {
   const divColor = 'blue';
 
